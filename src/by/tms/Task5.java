@@ -18,11 +18,11 @@ public class Task5 {
 
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        n = Math.abs(n);
-        if (n % 10 == 1 && n % 100 != 11) System.out.println(n + " рубль.");
-        else if ((n % 10 == 2 && n % 100 != 12) ||
-                 (n % 10 == 3 && n % 100 != 13) ||
-                 (n % 10 == 4 && n % 100 != 14)) System.out.println(n + " рубля.");
+        int modN = Math.abs(n);
+        if (modN % 10 == 1 && modN % 100 != 11) System.out.println(n + " рубль.");
+        else if ((modN % 10 == 2 && modN % 100 != 12) ||
+                 (modN % 10 == 3 && modN % 100 != 13) ||
+                 (modN % 10 == 4 && modN % 100 != 14)) System.out.println(n + " рубля.");
         else System.out.println(n + " рублей.");
 
 //        1 21 31       рубль
