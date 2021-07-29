@@ -20,7 +20,7 @@ package by.tms.lesson3.professions;
 
 public class Driver {
 
-    public String fullName;
+    private String fullName;
     private int driveExp;
 
     public Driver(String fullName, int driveExp) {

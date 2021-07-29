@@ -19,8 +19,8 @@
 package by.tms.lesson3.vehicles;
 
 import by.tms.lesson3.details.Engine;
-import by.tms.lesson3.professions.Driver;
 
+import by.tms.lesson3.professions.Driver;
 import java.util.Objects;
 
 public class Car {
@@ -38,7 +38,6 @@ public class Car {
         this.driverCar = driverCar;
         this.engineCar = engineCar;
     }
-
     public Driver getDriverCar() {
         return driverCar;
     }
