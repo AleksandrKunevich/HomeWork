@@ -12,9 +12,9 @@ public class Task3 {
 
     public static void main(String[] args) {
 
-        int l = 7;
-        int h = 8;
-        System.out.println("S = " + l * h
-                + "\nL = " + 2 * (l + h));
+        int lenght = 7;
+        int Hight = 8;
+        System.out.println("Square = " + lenght * Hight
+                + "\nL = " + 2 * (lenght + Hight));
     }
 }

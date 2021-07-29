@@ -12,12 +12,12 @@ public class Task6 {
 
     public static void main(String[] args) {
 
-        int number = 375;
-        int n3 = number % 10;
-        int n2 = (number % 100 - n3) / 10;
-        int n1 = (number % 1000 - n3 - n2) / 100;
-        var res = n1 * n2 * n3;
-        System.out.println("Number = "+ number
-                + "\nResult: " + n1 + " * " + n2 + " * " + n3 + " = " + res);
+        int numberIn = 375;
+        int number3 = numberIn % 10;
+        int number2 = numberIn / 10 % 10;
+        int number1 = numberIn / 100;
+        var res = number1 * number2 * number3;
+        System.out.println("Number = " + numberIn
+                + "\nResult: " + number1 + " * " + number2 + " * " + number3 + " = " + res);
     }
 }

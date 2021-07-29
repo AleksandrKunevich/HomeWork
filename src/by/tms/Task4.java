@@ -12,12 +12,12 @@ public class Task4 {
 
     public static void main(String[] args) {
 
-        int a = 11_223_341;
-        int b = 20;
-        System.out.println("Befor: a = " + a + " and b = " + b);
-        int c = a;
-        a = b;
-        b = c;
-        System.out.println("After: a = " + a + " and b = " + b);
+        int numberA = 11_223_341;
+        int numberB = 20;
+        System.out.println("Befor: numberA = " + numberA + " and b = " + numberB);
+        int c = numberA;
+        numberA = numberB;
+        numberB = c;
+        System.out.println("After: numberA = " + numberA + " and b = " + numberB);
     }
 }
