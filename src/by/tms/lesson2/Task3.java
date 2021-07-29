@@ -13,8 +13,8 @@ public class Task3 {
     public static void main(String[] args) {
 
         int lenght = 7;
-        int Hight = 8;
-        System.out.println("Square = " + lenght * Hight
-                + "\nL = " + 2 * (lenght + Hight));
+        int hight = 8;
+        System.out.println("Square = " + lenght * hight
+                + "\nL = " + 2 * (lenght + hight));
     }
 }
