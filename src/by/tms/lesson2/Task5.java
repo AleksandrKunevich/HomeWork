@@ -8,7 +8,7 @@
  * Куневич Александр
  */
 
-package by.tms;
+package by.tms.lesson2;
 
 import java.util.Scanner;
 
