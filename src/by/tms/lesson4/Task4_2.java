@@ -60,33 +60,13 @@ public class Task4_2 {
 
     public static int convertRimToArab(char charRim) {
         int arabInt = 0;
-        if (charRim == 'M') {
-            arabInt = 1000;
-        } else {
-            if (charRim == 'D') {
-                arabInt = 500;
-            } else {
-                if (charRim == 'C') {
-                    arabInt = 100;
-                } else {
-                    if (charRim == 'L') {
-                        arabInt = 50;
-                    } else {
-                        if (charRim == 'X') {
-                            arabInt = 10;
-                        } else {
-                            if (charRim == 'V') {
-                                arabInt = 5;
-                            } else {
-                                if (charRim == 'I') {
-                                    arabInt = 1;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        if (charRim == 'M') arabInt = 1000;
+        if (charRim == 'D') arabInt = 500;
+        if (charRim == 'C') arabInt = 100; 
+        if (charRim == 'L') arabInt = 50;
+        if (charRim == 'X') arabInt = 10;
+        if (charRim == 'V') arabInt = 5;
+        if (charRim == 'I') arabInt = 1;
         return arabInt;
     }
 }
