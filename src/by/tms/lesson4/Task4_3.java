@@ -11,7 +11,7 @@ public class Task4_3{
     
         System.out.print("Enter your family, name and last name (FIO): ");    
         Scanner scanner = new Scanner(System.in);
-        String enterFIO = scanner.nextLine;
+        String enterFIO = scanner.nextLine();
         enterFIO = enterFIO.trim();
         Strind words[] = enterFIO.split(" ");
         if (words.length < 3) {
