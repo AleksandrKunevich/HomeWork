@@ -16,6 +16,7 @@
      public static void main(String[] args){
      
      String anyString = "I like Java!!!";
+     String wordJava = "Java";
      StringBuilder anyStringBuilder = new StringBuilder(anyString);
      char lastCharInStringBuilder = anyStringBuilder.charAt(anyStringBuilder.length()-1);
      System.out.println("(StringBuilder) Last simbol: " + lastCharInStringBuilder);
@@ -26,8 +27,10 @@
      System.out.println(anyString.endsWith("!!!") ? "String end \"!!!\"" : "String is NOT end \"!!!\"");
      System.out.println(anyString.startsWith("I like") ? "String start \"I like\"" : "String NOT start \"I like\"");
      
-     String wordJava = "Java";
-     System.out.println("(regionMatches) Java is inside: " + anyString.regionMatches(7, "Java", 0, 4));
+     for (int i = 0; i < (1 + anyString.length() - wordJava.length()); i++)
+         if (anyString.regionMatches(i, wordJava, 0, wordJava.length()))
+             System.out.println("(regionMatches) Java is inside");
+      
      int index = anyString.indexOf(wordJava);
      System.out.println(index != -1 ? "(indexOf) \"Java\" inside." : "(indexOf) \"Java\" is NOT inside.");
      System.out.println("(contains) \"Java\" inside: " + anyString.contains("Java"));
