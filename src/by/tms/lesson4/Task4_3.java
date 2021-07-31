@@ -13,7 +13,7 @@ public class Task4_3{
         Scanner scanner = new Scanner(System.in);
         String enterFIO = scanner.nextLine();
         enterFIO = enterFIO.trim();
-        Strind words[] = enterFIO.split(" ");
+        String words[] = enterFIO.split(" ");
         if (words.length < 3) {
             System.out.println("Incorrect enter FIO!");
         } else {
