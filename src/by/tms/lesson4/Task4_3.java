@@ -3,6 +3,8 @@
  * формате "Ф.И.О." Учесть, что входные параметры могут быть в любом регистре, а результирующая строка должна быть в верхнем.
  */
 
+import java.util.Scanner;
+
 public class Task4_3{
   
     public static void main(String[] args){
