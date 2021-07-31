@@ -8,7 +8,6 @@
 
 package by.tms.lesson4;
 
-import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 public class Task4_1 {

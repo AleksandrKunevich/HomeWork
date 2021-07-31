@@ -62,7 +62,7 @@ public class Task4_2 {
         int arabInt = 0;
         if (charRim == 'M') arabInt = 1000;
         if (charRim == 'D') arabInt = 500;
-        if (charRim == 'C') arabInt = 100; 
+        if (charRim == 'C') arabInt = 100;
         if (charRim == 'L') arabInt = 50;
         if (charRim == 'X') arabInt = 10;
         if (charRim == 'V') arabInt = 5;
