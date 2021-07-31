@@ -13,7 +13,7 @@
  
  public class Task4_4{
  
-     public static void Main(String[] args){
+     public static void main(String[] args){
      
      String anyString = "I like Java!!!";
      StringBuilder anyStringBuilder = new StringBuilder(anyString);
